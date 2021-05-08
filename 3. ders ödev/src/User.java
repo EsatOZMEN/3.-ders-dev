@@ -6,6 +6,7 @@ public class User {
 	private String Email;
 	private int UserId;
 	private int password;
+	
 	public User(int id, String fistName, String lastName, int password, String email, int userId) {
 		super();
 		this.id = id;

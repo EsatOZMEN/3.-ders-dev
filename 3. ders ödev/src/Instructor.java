@@ -2,6 +2,7 @@
 public class Instructor extends User {
 	private int ýdentityNumber;
 	private int password;
+	
 	public Instructor(int id, String fistName, String lastName, int password, String email, int userId,
 			int identityNumber, int password2) {
 		super(id, fistName, lastName, password, email, userId);
